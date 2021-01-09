@@ -6,52 +6,50 @@
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "At CapsLock Technologies, we develop innovative and creative products and services that provide total communication and information solutions. Among a excess of services, web design and development, tailor made applications, e-commerce solutions, business-to-business applications and business-to-client applications. Satisfied clients around the globe bear testimony to the quality of our work.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Quality assurance",
+            "Total client satisfaction",
+            "Timely delivery of solutions",
+            "Best quality/price ratio"
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "Experienced staff",
+            "Creative staff",
+            "We use latest technology trends",
+            "We have 3 years of existence"
         ]
     },
     "Services": [{
             "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Custom Software Development",
+            "text": "A web or mobile application, an e-commerce platform, e-learning software or an enterprise solution — whatever you need, our software developers and other IT specialists are ready to deliver it for you. At Codete, we have over 150 engineers on board, and more than half of them are senior-level specialists (or higher). We employ software developers who specialize in many different technologies: PHP, Python, Java, .NET, JavaScript, NODE.js, Ruby on Rails, Swift, or Kotlin. We have backend, front-end, and mobile developers at your disposal, together with QA and DevOps engineers."
         },
         {
             "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": " IT Audit and Consulting services",
+            "text": "Sometimes a look from the outside in is like a breath of fresh air — also in business. If you’re searching for external insights into your company’s performance and your team’s productivity, we’ve got you covered. For the past decade, we’ve been working with some of the most innovative players on the market, developing outstanding software solutions in an agile environment. We’ve gathered enough experience and practical knowledge to provide our clients with in-depth audit and consult them on their IT processes. Everything to help them take their digital business to the next level."
         },
         {
             "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Software Development Centers",
+            "text": "Software development centers are the most comprehensive, top-shelf service in our portfolio. If you need a complete IT department that will take care of all your software development-related operations, this is the right option for you. It’s an all-inclusive service for delivering digital products. Our multidimensional IT expertise backed up by years of experience allows us to offer you support on all stages of software development. From laying the groundwork by performing a thorough business audit and designing a strategy to follow, to going step-by-step through the stages it outlines."
         },
         {
             "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Research and Development services",
+            "text": "Growth is the ultimate goal of any ambitious business. To stay ahead of the game, modern companies have to constantly be on the lookout for new ways to expand their offerings to better answer the needs of their clients. Whether you’re searching for some fresh product or feature ideas or want to investigate business opportunities, Codete experts can provide you with bespoke research and analysis, product development strategies, or even support you in designing and developing your Minimum Viable Product (MVP) from start to finish."
         },
         {
             "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Software Developers and Development Teams",
+            "text": "Onshoring, nearshoring, offshoring — all these buzzwords boil down to one thing: partnering with external software developers to create a digital product or speed up the process of delivering it. Extending in-house IT departments with outside experts is the perfect solution for companies that don’t have the time to spare for recruiting and hiring the right engineers on their own. With remote work on the rise, you’re no longer limited to the specialists in your proximity, you can look further for the know-how you need."
         },
         {
             "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "IT literacy training",
+            "text": "Technology literacy is the ability to effectively use technology to access, evaluate, integrate, create and communicate information to enhance the learning process through problem-solving and critical thinking."
         }
-
-
     ],
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
@@ -105,8 +103,8 @@
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
+        "address": "2780 Nu 7, Mdantsane, 5219",
+        "phone": "063 569 3150",
         "email": "sibabalwepeter2848@gmail.com",
         "facebook": "fb.com",
         "twitter": "twitter.com",
