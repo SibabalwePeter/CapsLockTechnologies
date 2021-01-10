@@ -67,24 +67,12 @@
             "name": "John Doe"
         }
     ],
-    "Team": [{
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
-        },
+    "Team": [
         {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
-        }, {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
-        },
-        {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
+            "img": "img/team/cofounder.jpg",
+            "name":"Sibabalwe Peter",
+            "job": "Co-founder",
+            "description": "Sibabalwe has built up a reputation for being able to grasp client challenges and solve them at pace. Prior to starting CapsLock Technologies in 2019, Sibabalwe has obtained BSc in Computer Science and Information Systems at Rhodes University. Immedaitely after completing his studies he join Software development industry as an employee. In addition, he chose to develop his career by using his experience as a software developer to solve complex business challenges in the IT environment as an independent entity."
         }
     ],
     "Contact": {

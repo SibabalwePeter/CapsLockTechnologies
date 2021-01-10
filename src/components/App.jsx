@@ -3,7 +3,6 @@ import Navigation from './navigation';
 import Header from './header';
 import About from './about';
 import Services from './services';
-import Testimonials from './testimonials';
 import Team from './Team';
 import Contact from './contact';
 import $ from 'jquery';
@@ -38,7 +37,6 @@ export class App extends Component {
         <Header data={this.state.resumeData.Header}/>
         <About  data={this.state.resumeData.About}/>
         <Services  data={this.state.resumeData.Services}/>
-        <Testimonials  data={this.state.resumeData.Testimonials}/>
         <Team  data={this.state.resumeData.Team}/>
         <Contact  data={this.state.resumeData.Contact}/>
       </div>
