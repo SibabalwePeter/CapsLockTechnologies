@@ -8,8 +8,9 @@ export class Services extends Component {
           <div className="section-title">
             <h2>Our Services</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+              Whether your business is a start up or well established, 
+              CapsLock Technologies will transform your business/idea, helping you scale,
+              & increase profitability.
             </p>
           </div>
           <div className="row">

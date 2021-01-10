@@ -8,8 +8,11 @@ export class Team extends Component {
           <div className="col-md-8 col-md-offset-2 section-title">
             <h2>Meet the Team</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+              Our team is made up of a good mix of IT software developers as 
+              well as Commerce and Marketing graduates. This 
+              combination ensures a strong mix of business and technical knowledge, 
+              experience and expertise, allowing us to build solutions that address
+               both the commercial and technological needs of each client.
             </p>
           </div>
           <div id="row">
