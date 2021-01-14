@@ -6,6 +6,7 @@ import Services from './components/services';
 import Team from './components/Team';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
+import ProtectedRoute from './auth/protected-route';
 
 export class App extends Component {
   state = {
@@ -24,6 +25,7 @@ export class App extends Component {
       <div>
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
+        <ProtectedRoute data={this.state.landingPageData.ProtectedRoute} />
         <About data={this.state.landingPageData.About} />
         <Services data={this.state.landingPageData.Services} />
         <Team data={this.state.landingPageData.Team} />

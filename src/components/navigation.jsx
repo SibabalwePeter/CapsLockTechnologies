@@ -1,9 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class Navigation extends Component {
-  render() {
+/* 
+To enable login feature uncomment all comments below
+
+import AuthenticationButton from './authentication-button';
+import { useAuth0 } from "@auth0/auth0-react";
+import Profile from './user-Profile';*/
+
+const Navigation = () => {
+  /*const { isAuthenticated } = useAuth0() */
+  
     return (
+
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+        <br/>
         <div className="container">
           <div className="navbar-header">
             <button
@@ -22,7 +32,6 @@ export class Navigation extends Component {
               CapsLock Technologies
             </a>{" "}
           </div>
-
           <div
             className="collapse navbar-collapse"
             id="bs-example-navbar-collapse-1"
@@ -48,12 +57,25 @@ export class Navigation extends Component {
                   Contact
                 </a>
               </li>
+
+            {/*
+              {isAuthenticated?
+              <li>
+                  <a href="#protectedRoute" className="page-scroll">
+                  Protected
+                </a>
+              </li>: ""}
+              <li>{isAuthenticated? <Profile />: ""}</li>
+              <li hidden={true}>
+                <AuthenticationButton />
+              </li>
+              */}
+
             </ul>
           </div>
         </div>
       </nav>
     );
   }
-}
 
 export default Navigation;

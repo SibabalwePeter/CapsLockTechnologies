@@ -6,11 +6,13 @@ import Services from './services';
 import Team from './Team';
 import Contact from './contact';
 import $ from 'jquery';
+import ProtectedRoute from '../auth/protected-route';
 
 export class App extends Component {
   state = {
     resumeData : {},
   }
+
   getResumeData(){
     $.ajax({
       url:'/data.json',
@@ -34,7 +36,8 @@ export class App extends Component {
     return (
       <div>
         <Navigation />
-        <Header data={this.state.resumeData.Header}/>
+        <Header data={this.state.resumeData.Header} />
+        <ProtectedRoute />
         <About  data={this.state.resumeData.About}/>
         <Services  data={this.state.resumeData.Services}/>
         <Team  data={this.state.resumeData.Team}/>
