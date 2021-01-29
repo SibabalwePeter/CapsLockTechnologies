@@ -72,7 +72,13 @@
             "img": "img/team/cofounder.jpg",
             "name":"Sibabalwe Peter",
             "job": "Co-founder",
-            "description": "Sibabalwe has built up a reputation for being able to grasp client challenges and solve them at pace. Prior to starting CapsLock Technologies in 2019, Sibabalwe has obtained BSc in Computer Science and Information Systems at Rhodes University. Immedaitely after completing his studies he join Software development industry as an employee. In addition, he chose to develop his career by using his experience as a software developer to solve complex business challenges in the IT environment as an independent entity."
+            "description": "Sibabalwe has obtained BSc in Computer Science and Information Systems at Rhodes University in 2017. Immedaitely after completing his studies he join Software development industry as an employee. In 2019 He Started to work as a freelance developer before he co-founded the cpmpany in 2018."
+        },
+        {
+            "img": "img/team/Mnoneleli.png",
+            "name": "Mnoneleli Fejeni",
+            "job": "Software Developer",
+            "description": "Moneleli has obtained NQF level 6 in Computer Science and Mathematics, He studied at Rhodes university. Mnonelili has been a freelance developer since 2018, immediatly after university he has been  involved in web development projects as a full stack web developer."
         }
     ],
     "Contact": {

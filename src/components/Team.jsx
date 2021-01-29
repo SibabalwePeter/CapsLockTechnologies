@@ -1,9 +1,24 @@
 import React, { Component } from "react";
+import { CardDeck, Card, CardTitle,
+  CardSubtitle, CardText, CardImg, Col} from  'reactstrap';
 
 export class Team extends Component {
   render() {
     return (
       <div id="team" className="text-center">
+        <style>
+          {`
+            .Card{
+              width: 30%;
+              float: left;
+              margin: 10%;
+            }
+            .CardImg{
+              
+            }
+          `}
+        </style>
+
         <div className="container">
           <div className="col-md-8 col-md-offset-2 section-title">
             <h2>Meet the Team</h2>
@@ -16,23 +31,24 @@ export class Team extends Component {
             </p>
           </div>
           <div id="row">
-            {this.props.data
-              ? this.props.data.map((d, i) => (
-                  <div  key={`${d.name}-${i}`} className="centre">
-                    <div className="thumbnail">
-                      {" "}
-                      <img src={d.img} alt="..." className="team-img" />
-                      <div className="caption">
-                        <h4>{d.name}</h4>
-                        <p>{d.job}</p>
-                        <p id="description">
-                          {d.description}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                ))
-              : "loading"}
+            <div className="centre">
+              <div className="thumbnail">
+                <CardDeck>
+                    {this.props.data
+                      ? this.props.data.map((d, i) => (
+                        <Card>
+                          <Col sm="8">
+                          <CardImg top width="100%" src={d.img} alt="Card image cap" />
+                          </Col>
+                          <CardTitle tag="h5">{d.name}</CardTitle>
+                          <CardSubtitle tag="h6" className="mb-2 text-muted">{d.job}</CardSubtitle>
+                          <CardText>{d.description}</CardText>
+                        </Card>
+                      ))
+                      : "loading"}
+                  </CardDeck>
+              </div>
+            </div>
           </div>
         </div>
       </div>
