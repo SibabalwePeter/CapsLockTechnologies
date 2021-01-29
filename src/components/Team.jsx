@@ -9,9 +9,9 @@ export class Team extends Component {
         <style>
           {`
             .Card{
-              width: 30%;
+              width: 40%;
               float: left;
-              margin: 10%;
+              margin: 3%;
             }
             .CardImg{
               
