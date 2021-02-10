@@ -47,6 +47,12 @@ const Navigation = () => {
                   Services
                 </a>
               </li>
+
+              <li>
+                <a href="#portfolio" className="page-scroll">
+                  Portfolio
+                </a>
+              </li>
               <li>
                 <a href="#team" className="page-scroll">
                   Team
