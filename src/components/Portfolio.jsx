@@ -15,7 +15,7 @@ export class Portfolio extends Component {
                                     <div className="hover-bg">
                                         {" "}
                                         <a
-                                            href="img/portfolio/FlyingScroll.PNG"
+                                            href="#portfolio"
                                             title="Project Title"
                                             data-lightbox-gallery="gallery1"
                                         >
@@ -36,7 +36,7 @@ export class Portfolio extends Component {
                                     <div className="hover-bg">
                                         {" "}
                                         <a
-                                            href="httsp://bullsandbearsfx.netlify.app"
+                                            href="#portfolio"
                                             title="Project Title"
                                             data-lightbox-gallery="gallery1"
                                         >
